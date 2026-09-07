@@ -160,7 +160,7 @@ function fallbackAISummary(patient) {
 
 function callGemini(prompt, callback) {
   const key=process.env.GEMINI_API_KEY||process.env.GOOGLE_API_KEY||"";
-  const model=process.env.GEMINI_MODEL||"gemini-2.5-flash";
+  const model=process.env.GEMINI_MODEL||"gemini-3.6-flash";
   if(!key) return callback(null,{configured:false,model,message:"Gemini API is not configured. Add GEMINI_API_KEY in Render Environment Variables."});
 
   const https=require("https");
