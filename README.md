@@ -313,18 +313,5 @@ MediKiosk aims to:
 
 ---
 
-## ⚠️ Disclaimer
-
-MediKiosk is a software prototype intended to assist with patient information collection and healthcare workflow management.
-
-It is **not a replacement for a qualified medical professional** and should not be used as an autonomous diagnostic system.
-
----
-
-## 📄 License
-
-This project is currently developed as an academic/prototype project.
-
-Add your preferred license here if the project is intended for public distribution.
 
 
