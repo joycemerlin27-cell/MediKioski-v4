@@ -1,0 +1,19 @@
+MediKiosk v8 — Google Gemini
+
+Render Environment Variables:
+GEMINI_API_KEY = your Gemini API key
+GEMINI_MODEL = gemini-2.5-flash
+
+Remove/ignore the old:
+AI_API_KEY
+AI_API_BASE_URL
+AI_MODEL
+
+The API key is server-side only. Never put it in GitHub or frontend JS.
+
+Doctor opens a patient -> summary is generated from previous history + current issue +
+adaptive questionnaire -> Gemini returns structured JSON -> summary is shown and saved.
+
+If the key is missing, a readable patient-information fallback is shown.
+
+This feature summarizes patient-provided information; it does not diagnose or prescribe.
